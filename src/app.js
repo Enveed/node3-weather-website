@@ -46,7 +46,7 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
     res.render("about", {
         title: "About Me",
-        name: "Andrew"
+        name: "Rith"
     })
 })
 
@@ -54,7 +54,7 @@ app.get("/help", (req, res) => {
     res.render("help", {
         title: "Help",
         helpMessage:"This is some helpful text.",
-        name: "Andrew"
+        name: "Rith"
     })
 })
 
