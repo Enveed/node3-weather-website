@@ -18,7 +18,7 @@ weatherForm.addEventListener("submit", (e) => {
         if (weatherData.error)
             return messageOne.textContent = weatherData.error
         messageOne.textContent = weatherData.location
-        messageTwo.textContent = weatherData.forecast.weatherStatus + ". The current temperature is: " + weatherData.forecast.Temperature + ". There's " + weatherData.forecast.chanceofRain + " chance of raining."
+        messageTwo.textContent = weatherData.forecast.weatherStatus + ". Today's minimum temperature is: " + weatherData.forecast.minTemp + ". Today's maximum temperature is: " + weatherData.forecast.maxTemp + ". The current temperature is: " + weatherData.forecast.Temperature + ". There's " + weatherData.forecast.chanceofRain + " chance of raining."
     })
 })
 })
